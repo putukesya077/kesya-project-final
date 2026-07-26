@@ -1,0 +1,2291 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth no-js">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>KESYA | Portfolio</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%23FCF8F4'/%3E%3Ctext x='50' y='68' font-size='60' text-anchor='middle' fill='%23C7865A'%3E%E2%9C%A6%3C/text%3E%3C/svg%3E">
+
+    <!-- Google Font -->
+
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap"
+          rel="stylesheet">
+
+    <link rel="stylesheet"
+          href="./css/style.css">
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+</head>
+
+<body id="body" class="bg-background text-text bg-grid">
+    <div class="bg-noise"></div>
+
+    <!-- ================= NAVBAR ================= -->
+
+    <header
+    class="fixed top-5 left-1/2 -translate-x-1/2 w-[94%] lg:w-[92%] z-50">
+        <nav
+class="bg-white/70 dark:bg-[#211D1A]/90 backdrop-blur-2xl rounded-full border border-white/80 dark:border-[#3A332E] shadow-xl transition-all duration-300">
+
+            <div
+class="max-w-7xl mx-auto px-5 sm:px-8 py-4 flex items-center justify-between">
+                <!-- Logo -->
+
+                <a href="#"
+                   class="flex items-center gap-3">
+
+                    <span class="text-[#B76E45] text-xl">
+                        ✦
+                    </span>
+
+                    <h1
+class="font-heading text-3xl font-semibold tracking-[0.18em] text-gray-900 dark:text-white">
+
+                        KESYA
+
+                    </h1>
+
+                </a>
+
+                <!-- Menu -->
+
+                <ul
+                    class="hidden lg:flex items-center gap-12 font-medium">
+
+                    <a href="#home"
+class="relative font-medium text-gray-800 dark:text-white hover:text-[#C7865A] duration-300
+after:absolute
+after:left-0
+after:-bottom-2
+after:w-0
+after:h-[2px]
+after:bg-[#C7865A]
+after:duration-300
+hover:after:w-full">
+
+Home
+
+</a>
+
+                    <a href="#about"
+class="relative font-medium text-gray-800 dark:text-white hover:text-[#C7865A] duration-300
+after:absolute
+after:left-0
+after:-bottom-2
+after:w-0
+after:h-[2px]
+after:bg-[#C7865A]
+after:duration-300
+hover:after:w-full">
+
+About
+
+</a>
+
+                    <a href="#journey"
+class="relative font-medium text-gray-800 dark:text-white hover:text-[#C7865A] duration-300
+after:absolute
+after:left-0
+after:-bottom-2
+after:w-0
+after:h-[2px]
+after:bg-[#C7865A]
+after:duration-300
+hover:after:w-full">
+
+Journey
+
+</a>
+
+                    <a href="#projects"
+class="relative font-medium text-gray-800 dark:text-white hover:text-[#C7865A] duration-300
+after:absolute
+after:left-0
+after:-bottom-2
+after:w-0
+after:h-[2px]
+after:bg-[#C7865A]
+after:duration-300
+hover:after:w-full">
+
+Projects
+
+</a>
+                   
+
+                    <a href="#contact"
+class="relative font-medium text-gray-800 dark:text-white hover:text-[#C7865A] duration-300
+after:absolute
+after:left-0
+after:-bottom-2
+after:w-0
+after:h-[2px]
+after:bg-[#C7865A]
+after:duration-300
+hover:after:w-full">
+
+Contact
+
+</a>
+                </ul>
+
+                <!-- Right -->
+                <div class="flex items-center gap-3">
+
+    <!-- Theme -->
+
+    <button
+id="theme-toggle"
+class="w-10 h-10 rounded-full border border-[#E8DED5] dark:border-[#4A433E] bg-white dark:bg-[#2A2522] flex items-center justify-center transition duration-300 hover:bg-[#F7F2ED] dark:hover:bg-[#3A332E]">
+
+🌙
+
+</button>
+
+    <!-- Mobile Menu -->
+
+    <button
+        id="menu-btn"
+        aria-label="Toggle navigation menu"
+        aria-expanded="false"
+        class="lg:hidden w-12 h-12 rounded-full bg-[#FAF5F1] shadow-md flex items-center justify-center">
+
+        ☰
+
+    </button>
+
+</div>
+
+            </div>
+        </nav>
+
+        <!-- Mobile Menu Panel -->
+        <div
+            id="mobile-menu"
+            class="hidden lg:hidden mt-3 bg-white/95 dark:bg-[#211D1A]/95 backdrop-blur-2xl rounded-3xl border border-white/80 dark:border-[#3A332E] shadow-xl overflow-hidden">
+            <ul class="flex flex-col divide-y divide-[#F0E6DC] dark:divide-[#3A332E]">
+
+                <li><a href="#home" class="mobile-nav-link block px-8 py-4 font-medium text-gray-800 dark:text-white hover:bg-[#FAF5F1] dark:hover:bg-[#2A2522] transition">Home</a></li>
+
+                <li><a href="#about" class="mobile-nav-link block px-8 py-4 font-medium text-gray-800 dark:text-white hover:bg-[#FAF5F1] dark:hover:bg-[#2A2522] transition">About</a></li>
+
+                <li><a href="#journey" class="mobile-nav-link block px-8 py-4 font-medium text-gray-800 dark:text-white hover:bg-[#FAF5F1] dark:hover:bg-[#2A2522] transition">Journey</a></li>
+
+                <li><a href="#projects" class="mobile-nav-link block px-8 py-4 font-medium text-gray-800 dark:text-white hover:bg-[#FAF5F1] dark:hover:bg-[#2A2522] transition">Projects</a></li>
+
+                <li><a href="#contact" class="mobile-nav-link block px-8 py-4 font-medium text-gray-800 dark:text-white hover:bg-[#FAF5F1] dark:hover:bg-[#2A2522] transition">Contact</a></li>
+            </ul>
+        </div>
+
+    </header>
+    <!-- ================= MAIN ================= -->
+
+<main>
+
+    <!-- ================= HERO ================= -->
+
+    <section id="home"
+    class="reveal min-h-screen flex items-center pt-36 lg:pt-44 pb-20 lg:pb-24 bg-[#FCFAF8] dark:bg-[#181614] transition-colors duration-500">
+
+        <div class="max-w-7xl mx-auto px-6 lg:px-10">
+
+            <div
+class="grid grid-cols-1 lg:grid-cols-[1.15fr_.85fr] gap-14 lg:gap-28 items-center">
+
+                <!-- LEFT -->
+
+                <div class="text-center lg:text-left">
+
+                    <!-- Small Text -->
+
+                    <div
+                        class="flex items-center gap-3 mb-8">
+
+                        <span
+                            class="text-[#C7865A] text-lg">
+
+                            ✦
+
+                        </span>
+
+                        <p
+                            class="uppercase tracking-[0.4em] text-sm text-[#C7865A]">
+
+                            Creative Portfolio
+
+                        </p>
+
+                    </div>
+
+                    <!-- Heading -->
+
+                    <h1
+class="font-heading
+text-[46px]
+sm:text-[58px]
+md:text-[72px]
+lg:text-[88px]
+xl:text-[102px]
+leading-[0.9]
+font-light
+text-[#2D2D2D]
+dark:text-white">
+
+    Crafting
+    <br>
+
+    Elegant
+    <br>
+
+    Digital
+    <br>
+
+    Experiences
+
+</h1>
+
+                    <!-- Line -->
+
+                    <div
+                        class="w-28 h-[2px] bg-[#C7865A] my-8 rounded-full">
+
+                    </div>
+
+                    <!-- Paragraph -->
+
+                    <p
+                        class="max-w-[520px] mx-auto lg:mx-0 leading-8 text-[17px] lg:text-[20px] text-gray-600 dark:text-gray-300">
+                        Accounting student with a growing passion
+                        for front-end development, clean interfaces,
+                        and meaningful digital experiences that
+                        balance aesthetics with functionality.
+
+                    </p>
+
+                    <!-- Buttons -->
+
+                    <div class="flex flex-col sm:flex-row justify-center lg:justify-start gap-5 mt-12">
+
+    <!-- Button 1 -->
+
+    <a
+        href="#projects"
+        class="btn inline-flex items-center gap-2 px-8 py-4 rounded-full bg-[#C7865A]
+dark:bg-[#D29567]
+hover:dark:bg-[#E2A97C] text-white font-medium shadow-lg hover:shadow-xl hover:scale-105 duration-300">
+
+        View Projects
+
+        <span>→</span>
+
+    </a>
+
+    <!-- Button 2 -->
+
+    <a
+        href="#about"
+        class="btn inline-flex items-center gap-2 px-8 py-4 rounded-full border border-[#C7865A] text-[#C7865A] font-medium hover:bg-[#C7865A] hover:text-white duration-300">
+
+        About Me
+
+        <span>→</span>
+
+    </a>
+
+                    </div>
+
+                    <!-- Technology -->
+
+                    <div class="mt-16">
+
+                        <p
+                            class="uppercase tracking-[0.3em] text-sm text-[#B76E45] mb-6">
+
+                            Technologies
+
+                        </p>
+
+                        <div
+class="flex flex-wrap justify-center lg:justify-start gap-4">
+
+                            <span
+class="px-6 py-3 rounded-full bg-white shadow-md border border-[#F2E3D8] hover:-translate-y-1 duration-300">
+
+    HTML
+
+</span>
+
+                            <span
+class="px-6 py-3 rounded-full bg-white shadow-md border border-[#F2E3D8] hover:-translate-y-1 duration-300">
+
+    Tailwind CSS
+
+</span>
+
+                            <span
+class="px-6 py-3 rounded-full bg-white shadow-md border border-[#F2E3D8] hover:-translate-y-1 duration-300">
+
+    JavaScript
+
+</span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+                        <!-- RIGHT -->
+
+<div class="relative flex justify-center">
+
+    <!-- Glow -->
+
+    <div
+        class="absolute w-[420px] h-[420px] bg-[#F1D6C0] rounded-full blur-[120px] opacity-60">
+    </div>
+
+    <!-- Card -->
+
+    <div
+        class="profile-card relative bg-white rounded-[40px] shadow-2xl w-full max-w-[360px] sm:max-w-[430px] p-10 border border-white/70">
+
+        <!-- Orbit -->
+
+        <div class="relative flex justify-center">
+
+            <!-- Orbit 1 -->
+
+            <div
+                class="rotate-slow absolute w-[270px] h-[270px] rounded-full border border-[#E6C6AF]">
+            </div>
+
+            <!-- Orbit 2 -->
+
+            <div
+                class="rotate-slow absolute w-[320px] h-[320px] rounded-full border border-dashed border-[#E6C6AF]">
+            </div>
+
+            <!-- Image -->
+
+            <div
+                class="profile-image relative mt-10 w-56 h-56 rounded-full overflow-hidden border-[8px] border-white shadow-xl">
+
+                <img
+                    src="images/profile/profile.jpg"
+                    alt="Kesya"
+                    class="w-full h-full object-cover">
+
+            </div>
+
+        </div>
+
+        <!-- Name -->
+
+        <div class="text-center mt-14">
+
+            <h2
+                class="font-['Cormorant_Garamond'] text-7xl">
+
+                Kesya
+
+            </h2>
+
+            <p
+                class="mt-3 text-[#C7865A] text-xl">
+
+                Accounting Student
+
+            </p>
+
+            <p
+                class="text-gray-500 mt-2">
+
+                Politeknik Negeri Bali
+
+            </p>
+
+        </div>
+
+        <!-- Divider -->
+
+        <div class="flex justify-center my-8">
+
+            <div
+                class="w-24 h-[2px] bg-[#D9B394] rounded-full">
+            </div>
+
+        </div>
+
+        <!-- Badge -->
+
+        <div
+            class="flex flex-wrap justify-center gap-3">
+
+            <span
+                class="px-5 py-2 rounded-full bg-[#FAF5F1] text-sm">
+
+                ✦ Creative
+
+            </span>
+
+            <span
+                class="px-5 py-2 rounded-full bg-[#FAF5F1] text-sm">
+
+                ♡ Lifelong Curious
+
+            </span>
+
+            <span
+                class="px-5 py-2 rounded-full bg-[#FAF5F1] text-sm">
+
+                📍 Based in Bali
+
+            </span>
+
+        </div>
+
+    </div>
+
+</div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!-- ================= ABOUT ================= -->
+
+<section
+id="about"
+class="reveal py-28">
+
+    <div class="max-w-7xl mx-auto px-6 lg:px-12 xl:px-16">
+
+        <!-- Title -->
+
+        <div class="text-center mb-20">
+
+            <p
+            class="uppercase tracking-[0.35em] text-sm text-[#C7865A]">
+
+                About Me
+
+            </p>
+
+            <h2
+            class="font-heading text-5xl lg:text-6xl mt-4">
+
+                Who Am I?
+
+            </h2>
+
+        </div>
+
+        <!-- Content -->
+
+        <div
+        class="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
+
+            <!-- Left -->
+
+            <div class="flex justify-center">
+
+                <div
+                class="relative w-[320px] h-[320px]">
+
+                    <div
+                    class="absolute inset-0 rounded-full bg-[#F2D7C2] blur-[90px] opacity-60">
+                    </div>
+
+                    <img
+                    src="images/profile/profile.jpg"
+                    alt="Kesya"
+                    class="relative w-full h-full rounded-full object-cover border-[10px] border-white shadow-2xl">
+
+                </div>
+
+            </div>
+
+            <!-- Right -->
+
+            <div>
+
+                <h3
+                class="font-heading text-5xl">
+
+                    Hello, I'm Kesya 👋
+
+                </h3>
+
+                <p
+                class="mt-8 text-gray-600 leading-9 text-lg">
+
+                    I am an Accounting student at Politeknik Negeri Bali who enjoys learning front-end development and creating clean, responsive, and user-friendly websites. I believe good design is not only visually appealing but also provides a meaningful experience for users.
+
+                </p>
+<!-- Tech Stack -->
+
+<div class="mt-12">
+
+    <p class="uppercase tracking-[0.3em] text-sm text-[#C7865A] mb-6">
+
+        Tools I Work With
+
+    </p>
+
+    <div class="flex flex-wrap gap-4">
+
+        <span class="px-5 py-2 rounded-full border border-[#E8DED5]
+        transition-all duration-300
+        hover:bg-[#C7865A]
+        hover:text-white
+        hover:border-[#C7865A]">
+
+            HTML
+
+        </span>
+
+        <span class="px-5 py-2 rounded-full border border-[#E8DED5]
+        transition-all duration-300
+        hover:bg-[#C7865A]
+        hover:text-white
+        hover:border-[#C7865A]">
+
+            Tailwind CSS
+
+        </span>
+
+        <span class="px-5 py-2 rounded-full border border-[#E8DED5]
+        transition-all duration-300
+        hover:bg-[#C7865A]
+        hover:text-white
+        hover:border-[#C7865A]">
+
+            JavaScript
+
+        </span>
+
+        <span class="px-5 py-2 rounded-full border border-[#E8DED5]
+        transition-all duration-300
+        hover:bg-[#C7865A]
+        hover:text-white
+        hover:border-[#C7865A]">
+
+            Vite
+
+        </span>
+
+        <span class="px-5 py-2 rounded-full border border-[#E8DED5]
+        transition-all duration-300
+        hover:bg-[#C7865A]
+        hover:text-white
+        hover:border-[#C7865A]">
+
+            Excel
+
+        </span>
+
+        <span class="px-5 py-2 rounded-full border border-[#E8DED5]
+        transition-all duration-300
+        hover:bg-[#C7865A]
+        hover:text-white
+        hover:border-[#C7865A]">
+
+            Power Query
+
+        </span>
+
+    </div>
+
+</div>
+                <!-- Tags -->
+
+                <div
+                class="flex flex-wrap gap-3 mt-10">
+
+                    <span class="px-5 py-2 rounded-full bg-[#FAF5F1] border border-[#F2E3D8]">
+
+                        🎓 Accounting Student
+
+                    </span>
+
+                    <span class="px-5 py-2 rounded-full bg-[#FAF5F1] border border-[#F2E3D8]">
+
+                        💻 Front-End Learner
+
+                    </span>
+
+                    <span class="px-5 py-2 rounded-full bg-[#FAF5F1] border border-[#F2E3D8]">
+
+                        🌴 Bali, Indonesia
+
+                    </span>
+
+                </div>
+
+                <!-- Statistics -->
+
+                <div
+                class="grid grid-cols-3 gap-6 mt-12">
+
+                    <div
+                    class="bg-white rounded-3xl p-6 shadow-lg text-center">
+
+                        <h4
+                        class="font-heading text-5xl text-[#C7865A]">
+
+                            2+
+
+                        </h4>
+
+                        <p class="mt-2 text-gray-500">
+
+                            Projects
+
+                        </p>
+
+                    </div>
+
+                    <div
+                    class="bg-white rounded-3xl p-6 shadow-lg text-center">
+
+                        <h4
+                        class="font-heading text-5xl text-[#C7865A]">
+
+                            3+
+
+                        </h4>
+
+                        <p class="mt-2 text-gray-500">
+
+                            Technologies
+
+                        </p>
+
+                    </div>
+
+                    <div
+                    class="bg-white rounded-3xl p-6 shadow-lg text-center">
+
+                        <h4
+                        class="font-heading text-5xl text-[#C7865A]">
+
+                            1+
+
+                        </h4>
+
+                        <p class="mt-2 text-gray-500">
+
+                            Years Learning
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- ================= JOURNEY ================= -->
+
+<section id="journey" class="reveal py-32 bg-[#FBF8F5]">
+
+    <div class="max-w-7xl mx-auto px-6 lg:px-12 xl:px-16">
+
+        <!-- Heading -->
+
+        <div class="text-center">
+
+            <p class="uppercase tracking-[0.35em] text-sm text-[#C7865A]">
+
+                Learning Journey
+
+            </p>
+
+            <h2 class="font-['Cormorant_Garamond'] text-6xl mt-5">
+
+                My CCDT Journey
+
+            </h2>
+
+            <div class="w-24 h-[2px] bg-[#C7865A] rounded-full mx-auto mt-8 mb-8"></div>
+
+            <p class="max-w-2xl mx-auto text-gray-600 leading-8">
+
+                A collection of ten learning sessions throughout the
+                Creative Coding & Digital Technology course.
+
+            </p>
+
+        </div>
+
+        <!-- GRID -->
+
+        <div class="grid lg:grid-cols-2 gap-10 mt-20">
+
+            <!-- ================= CARD ================= -->
+
+            <div class="group relative overflow-hidden rounded-[32px] border border-[#E8DED5]
+            p-8 transition-all duration-500 hover:bg-white hover:border-[#C7865A]
+            hover:-translate-y-2">
+
+                <!-- Background Number -->
+
+                <span class="absolute -right-4 -top-8 font-['Cormorant_Garamond']
+                text-[170px] text-[#EEDFD3] opacity-20
+                transition-all duration-500 group-hover:scale-110 group-hover:text-[#E7C8AF]">
+
+                    01
+
+                </span>
+
+                <!-- Content -->
+
+                <div class="relative z-10">
+
+                    <p class="text-[#C7865A] text-lg">
+
+                        ✦
+
+                    </p>
+
+                    <h3 class="mt-4 text-3xl leading-tight font-['Cormorant_Garamond']">
+
+                        Pengenalan &
+                        <br>
+                        Setup Tailwind CSS v4
+
+                    </h3>
+
+                    <div class="w-16 h-[2px] bg-[#D9B394] rounded-full mt-6"></div>
+
+                    <p class="mt-6 leading-8 text-gray-600">
+
+                        Learned how to install Tailwind CSS v4,
+                        set up a project using Vite, understand
+                        the folder structure, and prepare the
+                        development environment.
+
+                    </p>
+
+                    <div class="flex justify-between items-center mt-10">
+
+                        <span class="text-[#B76E45] text-sm tracking-[0.2em] uppercase">
+
+                            Week 01
+
+                        </span>
+
+                        <details class="mt-6 group">
+
+    <summary class="cursor-pointer list-none inline-flex items-center gap-3 px-5 py-3 rounded-full bg-[#FAF5F1] border border-[#E8DED5] hover:bg-[#F5ECE5] transition">
+
+        <span class="text-[#C7865A] font-medium">
+
+            ✨ What I Learned
+
+        </span>
+
+        <span class="transition-transform duration-300 group-open:rotate-180">
+
+            ▼
+
+        </span>
+
+    </summary>
+
+    <div class="mt-6 ml-2 pl-6 border-l-2 border-[#E8DED5]">
+
+        <ul class="space-y-3 text-gray-600 leading-8">
+
+            <li>✓ Introduction to CCDT</li>
+
+            <li>✓ Installing VS Code</li>
+
+            <li>✓ Installing Node.js</li>
+
+            <li>✓ Setting up Vite</li>
+
+            <li>✓ Installing Tailwind CSS v4</li>
+
+            <li>✓ Understanding Project Structure</li>
+
+            <li>✓ Running Development Server</li>
+
+        </ul>
+
+    </div>
+
+</details>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- ================= CARD ================= -->
+
+            <div class="group relative overflow-hidden rounded-[32px] border border-[#E8DED5]
+            p-8 transition-all duration-500 hover:bg-white hover:border-[#C7865A]
+            hover:-translate-y-2">
+
+                <span class="absolute -right-4 -top-8 font-['Cormorant_Garamond']
+                text-[170px] text-[#EEDFD3] opacity-20
+                transition-all duration-500 group-hover:scale-110 group-hover:text-[#E7C8AF]">
+
+                    02
+
+                </span>
+
+                <div class="relative z-10">
+
+                    <p class="text-[#C7865A] text-lg">
+
+                        ✦
+
+                    </p>
+
+                    <h3 class="mt-4 text-3xl leading-tight font-['Cormorant_Garamond']">
+
+                        Utility First
+                        <br>
+                        Tailwind CSS
+
+                    </h3>
+
+                    <div class="w-16 h-[2px] bg-[#D9B394] rounded-full mt-6"></div>
+
+                    <p class="mt-6 leading-8 text-gray-600">
+
+                        Explored the utility-first concept
+                        and learned how to build user interfaces
+                        efficiently using reusable utility classes.
+
+                    </p>
+
+                    <div class="flex justify-between items-center mt-10">
+
+                        <span class="text-[#B76E45] text-sm tracking-[0.2em] uppercase">
+
+                            Week 02
+
+                        </span>
+
+                        <details class="mt-6 group">
+
+    <summary class="cursor-pointer list-none inline-flex items-center gap-3 px-5 py-3 rounded-full bg-[#FAF5F1] border border-[#E8DED5] hover:bg-[#F5ECE5] transition">
+
+        <span class="text-[#C7865A] font-medium">
+
+            ✨ What I Learned
+
+        </span>
+
+        <span class="transition-transform duration-300 group-open:rotate-180">
+
+            ▼
+
+        </span>
+
+    </summary>
+
+    <div class="mt-6 ml-2 pl-6 border-l-2 border-[#E8DED5]">
+
+        <ul class="space-y-3 text-gray-600 leading-8">
+
+            <li>✓ Utility-First CSS</li>
+
+            <li>✓ Margin & Padding</li>
+
+            <li>✓ Typography Utilities</li>
+
+            <li>✓ Colors & Background</li>
+
+            <li>✓ Borders & Border Radius</li>
+
+            <li>✓ Shadows & Spacing</li>
+
+            <li>✓ Reusable Utility Classes</li>
+
+        </ul>
+
+    </div>
+
+</details>
+
+                    </div>
+
+                </div>
+
+            </div>
+<!-- Week 3 -->
+<div class="group relative overflow-hidden rounded-[32px] border border-[#E8DED5]
+p-8 transition-all duration-500 hover:bg-white hover:border-[#C7865A]
+hover:-translate-y-2">
+
+    <span class="absolute -right-4 -top-8 font-['Cormorant_Garamond']
+    text-[170px] text-[#EEDFD3] opacity-20
+    transition-all duration-500 group-hover:scale-110 group-hover:text-[#E7C8AF]">
+
+        03
+
+    </span>
+
+    <div class="relative z-10">
+
+        <p class="text-[#C7865A] text-lg">✦</p>
+
+        <h3 class="mt-4 text-3xl leading-tight font-['Cormorant_Garamond']">
+
+            Flexbox &
+            <br>
+            Grid Layout
+
+        </h3>
+
+        <div class="w-16 h-[2px] bg-[#D9B394] rounded-full mt-6"></div>
+
+        <p class="mt-6 leading-8 text-gray-600">
+
+            Learned how to organize layouts using Flexbox
+            and CSS Grid to create clean, structured,
+            and responsive web interfaces.
+
+        </p>
+
+        <div class="flex justify-between items-center mt-10">
+
+            <span class="text-[#B76E45] text-sm tracking-[0.2em] uppercase">
+
+                Week 03
+
+            </span>
+
+            <details class="mt-6 group">
+
+    <summary class="cursor-pointer list-none inline-flex items-center gap-3 px-5 py-3 rounded-full bg-[#FAF5F1] border border-[#E8DED5] hover:bg-[#F5ECE5] transition">
+
+        <span class="text-[#C7865A] font-medium">
+
+            ✨ What I Learned
+
+        </span>
+
+        <span class="transition-transform duration-300 group-open:rotate-180">
+
+            ▼
+
+        </span>
+
+    </summary>
+
+    <div class="mt-6 ml-2 pl-6 border-l-2 border-[#E8DED5]">
+
+        <ul class="space-y-3 text-gray-600 leading-8">
+
+            <li>✓ Flexbox Layout</li>
+
+            <li>✓ CSS Grid Layout</li>
+
+            <li>✓ Alignment & Justification</li>
+
+            <li>✓ Gap & Spacing</li>
+
+            <li>✓ Responsive Grid</li>
+
+            <li>✓ Building Structured Layouts</li>
+
+            <li>✓ Best Practices for Layout Design</li>
+
+        </ul>
+
+    </div>
+
+</details>
+
+        </div>
+
+    </div>
+
+</div>
+<!-- Week 4 -->
+
+<div class="group relative overflow-hidden rounded-[32px] border border-[#E8DED5]
+p-8 transition-all duration-500 hover:bg-white hover:border-[#C7865A]
+hover:-translate-y-2">
+
+<span class="absolute -right-4 -top-8 font-['Cormorant_Garamond']
+text-[170px] text-[#EEDFD3] opacity-20 transition-all duration-500 group-hover:scale-110">
+
+04
+
+</span>
+
+<div class="relative z-10">
+
+<p class="text-[#C7865A] text-lg">✦</p>
+
+<h3 class="mt-4 text-3xl leading-tight font-['Cormorant_Garamond']">
+
+Responsive Design
+<br>
+& Mobile First
+
+</h3>
+
+<div class="w-16 h-[2px] bg-[#D9B394] rounded-full mt-6"></div>
+
+<p class="mt-6 leading-8 text-gray-600">
+
+Applied responsive design principles using
+Tailwind CSS breakpoints while following
+the mobile-first development approach.
+
+</p>
+
+<div class="flex justify-between items-center mt-10">
+
+<span class="text-[#B76E45] text-sm tracking-[0.2em] uppercase">
+
+Week 04
+
+</span>
+
+<details class="mt-6 group">
+
+    <summary class="cursor-pointer list-none inline-flex items-center gap-3 px-5 py-3 rounded-full bg-[#FAF5F1] border border-[#E8DED5] hover:bg-[#F5ECE5] transition">
+
+        <span class="text-[#C7865A] font-medium">
+
+            ✨ What I Learned
+
+        </span>
+
+        <span class="transition-transform duration-300 group-open:rotate-180">
+
+            ▼
+
+        </span>
+
+    </summary>
+
+    <div class="mt-6 ml-2 pl-6 border-l-2 border-[#E8DED5]">
+
+        <ul class="space-y-3 text-gray-600 leading-8">
+
+            <li>✓ Responsive Design Principles</li>
+
+            <li>✓ Mobile-First Strategy</li>
+
+            <li>✓ Tailwind Breakpoints</li>
+
+            <li>✓ Responsive Typography</li>
+
+            <li>✓ Responsive Grid Layout</li>
+
+            <li>✓ Device Testing</li>
+
+            <li>✓ Responsive Spacing</li>
+
+        </ul>
+
+    </div>
+
+</details>
+
+</div>
+
+</div>
+
+</div>
+<!-- Week 5 -->
+
+<div class="group relative overflow-hidden rounded-[32px] border border-[#E8DED5]
+p-8 transition-all duration-500 hover:bg-white hover:border-[#C7865A]
+hover:-translate-y-2">
+
+<span class="absolute -right-4 -top-8 font-['Cormorant_Garamond']
+text-[170px] text-[#EEDFD3] opacity-20">
+
+05
+
+</span>
+
+<div class="relative z-10">
+
+<p class="text-[#C7865A] text-lg">✦</p>
+
+<h3 class="mt-4 text-3xl leading-tight font-['Cormorant_Garamond']">
+
+Theme
+<br>
+Customization
+
+</h3>
+
+<div class="w-16 h-[2px] bg-[#D9B394] rounded-full mt-6"></div>
+
+<p class="mt-6 leading-8 text-gray-600">
+
+Customized colors, typography,
+and design identity to build
+a consistent visual experience.
+
+</p>
+
+<div class="flex justify-between items-center mt-10">
+
+<span class="text-[#B76E45] text-sm tracking-[0.2em] uppercase">
+
+Week 05
+
+</span>
+
+<details class="mt-6 group">
+
+    <summary class="cursor-pointer list-none inline-flex items-center gap-3 px-5 py-3 rounded-full bg-[#FAF5F1] border border-[#E8DED5] hover:bg-[#F5ECE5] transition">
+
+        <span class="text-[#C7865A] font-medium">
+
+            ✨ What I Learned
+
+        </span>
+
+        <span class="transition-transform duration-300 group-open:rotate-180">
+
+            ▼
+
+        </span>
+
+    </summary>
+
+    <div class="mt-6 ml-2 pl-6 border-l-2 border-[#E8DED5]">
+
+        <ul class="space-y-3 text-gray-600 leading-8">
+
+            <li>✓ Theme Customization</li>
+
+            <li>✓ Color Palette</li>
+
+            <li>✓ Typography Selection</li>
+
+            <li>✓ Design Identity</li>
+
+            <li>✓ UI Consistency</li>
+
+            <li>✓ Component Styling</li>
+
+            <li>✓ Visual Hierarchy</li>
+
+        </ul>
+
+    </div>
+
+</details>
+
+</div>
+
+</div>
+
+</div>
+<!-- Week 6 -->
+
+<div class="group relative overflow-hidden rounded-[32px] border border-[#E8DED5]
+p-8 transition-all duration-500 hover:bg-white hover:border-[#C7865A]
+hover:-translate-y-2">
+
+<span class="absolute -right-4 -top-8 font-['Cormorant_Garamond']
+text-[170px] text-[#EEDFD3] opacity-20">
+
+06
+
+</span>
+
+<div class="relative z-10">
+
+<p class="text-[#C7865A] text-lg">✦</p>
+
+<h3 class="mt-4 text-3xl leading-tight font-['Cormorant_Garamond']">
+
+Component
+<br>
+Architecture
+
+</h3>
+
+<div class="w-16 h-[2px] bg-[#D9B394] rounded-full mt-6"></div>
+
+<p class="mt-6 leading-8 text-gray-600">
+
+Learned how reusable UI components
+improve scalability, consistency,
+and maintainability in web projects.
+
+</p>
+
+<div class="flex justify-between items-center mt-10">
+
+<span class="text-[#B76E45] text-sm tracking-[0.2em] uppercase">
+
+Week 06
+
+</span>
+
+<details class="mt-6 group">
+
+    <summary class="cursor-pointer list-none inline-flex items-center gap-3 px-5 py-3 rounded-full bg-[#FAF5F1] border border-[#E8DED5] hover:bg-[#F5ECE5] transition">
+
+        <span class="text-[#C7865A] font-medium">
+
+            ✨ What I Learned
+
+        </span>
+
+        <span class="transition-transform duration-300 group-open:rotate-180">
+
+            ▼
+
+        </span>
+
+    </summary>
+
+    <div class="mt-6 ml-2 pl-6 border-l-2 border-[#E8DED5]">
+
+        <ul class="space-y-3 text-gray-600 leading-8">
+
+            <li>✓ Component-Based Development</li>
+
+            <li>✓ Reusable Components</li>
+
+            <li>✓ Clean HTML Structure</li>
+
+            <li>✓ Code Organization</li>
+
+            <li>✓ Section Reusability</li>
+
+            <li>✓ Maintainable UI Design</li>
+
+            <li>✓ Industry Workflow</li>
+
+        </ul>
+
+    </div>
+
+</details>
+
+</div>
+
+</div>
+
+</div>
+<!-- Week 7 -->
+
+<!-- ================= CARD ================= -->
+
+<div class="group relative overflow-hidden rounded-[32px] border border-[#E8DED5]
+p-8 transition-all duration-500 hover:bg-white hover:border-[#C7865A]
+hover:-translate-y-2">
+
+    <span class="absolute -right-4 -top-8 font-['Cormorant_Garamond']
+    text-[170px] text-[#EEDFD3] opacity-20
+    transition-all duration-500 group-hover:scale-110 group-hover:text-[#E7C8AF]">
+
+        07
+
+    </span>
+
+    <div class="relative z-10">
+
+        <p class="text-[#C7865A] text-lg">✦</p>
+
+        <h3 class="mt-4 text-3xl leading-tight font-['Cormorant_Garamond']">
+
+            Industry Standard
+            <br>
+            Components
+
+        </h3>
+
+        <div class="w-16 h-[2px] bg-[#D9B394] rounded-full mt-6"></div>
+
+        <p class="mt-6 leading-8 text-gray-600">
+
+            Explored component-based architecture and
+            industry practices to build structured,
+            reusable, and scalable interfaces.
+
+        </p>
+
+        <div class="flex justify-between items-center mt-10">
+
+            <span class="text-[#B76E45] text-sm tracking-[0.2em] uppercase">
+
+                Week 07
+
+            </span>
+
+            <details class="mt-6 group">
+
+    <summary class="cursor-pointer list-none inline-flex items-center gap-3 px-5 py-3 rounded-full bg-[#FAF5F1] border border-[#E8DED5] hover:bg-[#F5ECE5] transition">
+
+        <span class="text-[#C7865A] font-medium">
+
+            ✨ What I Learned
+
+        </span>
+
+        <span class="transition-transform duration-300 group-open:rotate-180">
+
+            ▼
+
+        </span>
+
+    </summary>
+
+    <div class="mt-6 ml-2 pl-6 border-l-2 border-[#E8DED5]">
+
+        <ul class="space-y-3 text-gray-600 leading-8">
+
+            <li>✓ Advanced Component Architecture</li>
+
+            <li>✓ File Organization</li>
+
+            <li>✓ Responsive Components</li>
+
+            <li>✓ UI Refinement</li>
+
+            <li>✓ Layout Reusability</li>
+
+            <li>✓ Code Optimization</li>
+
+            <li>✓ Clean Development Practices</li>
+
+        </ul>
+
+    </div>
+
+</details>
+        </div>
+
+    </div>
+
+</div>
+<!-- Week 8 -->
+
+<div class="group relative overflow-hidden rounded-[32px] border border-[#E8DED5]
+p-8 transition-all duration-500 hover:bg-white hover:border-[#C7865A]
+hover:-translate-y-2">
+
+    <span class="absolute -right-4 -top-8 font-['Cormorant_Garamond']
+    text-[170px] text-[#EEDFD3] opacity-20
+    transition-all duration-500 group-hover:scale-110 group-hover:text-[#E7C8AF]">
+
+        08
+
+    </span>
+
+    <div class="relative z-10">
+
+        <p class="text-[#C7865A] text-lg">✦</p>
+
+        <h3 class="mt-4 text-3xl leading-tight font-['Cormorant_Garamond']">
+
+            Complex Layout
+            <br>
+            & Dark Mode
+
+        </h3>
+
+        <div class="w-16 h-[2px] bg-[#D9B394] rounded-full mt-6"></div>
+
+        <p class="mt-6 leading-8 text-gray-600">
+
+            Created more advanced page layouts while
+            implementing a smooth and user-friendly
+            dark mode experience.
+
+        </p>
+
+        <div class="flex justify-between items-center mt-10">
+
+            <span class="text-[#B76E45] text-sm tracking-[0.2em] uppercase">
+
+                Week 08
+
+            </span>
+
+            <details class="mt-6 group">
+
+    <summary class="cursor-pointer list-none inline-flex items-center gap-3 px-5 py-3 rounded-full bg-[#FAF5F1] border border-[#E8DED5] hover:bg-[#F5ECE5] transition">
+
+        <span class="text-[#C7865A] font-medium">
+
+            ✨ What I Learned
+
+        </span>
+
+        <span class="transition-transform duration-300 group-open:rotate-180">
+
+            ▼
+
+        </span>
+
+    </summary>
+
+    <div class="mt-6 ml-2 pl-6 border-l-2 border-[#E8DED5]">
+
+        <ul class="space-y-3 text-gray-600 leading-8">
+
+            <li>✓ Complex Layout Design</li>
+
+            <li>✓ Advanced Grid Techniques</li>
+
+            <li>✓ Navigation Structure</li>
+
+            <li>✓ Dark Mode Concept</li>
+
+            <li>✓ Theme Management</li>
+
+            <li>✓ Better User Experience</li>
+
+            <li>✓ Layout Optimization</li>
+
+        </ul>
+
+    </div>
+
+</details>
+
+        </div>
+
+    </div>
+
+</div>
+<!-- Week 9 -->
+
+<div class="group relative overflow-hidden rounded-[32px] border border-[#E8DED5]
+p-8 transition-all duration-500 hover:bg-white hover:border-[#C7865A]
+hover:-translate-y-2">
+
+    <span class="absolute -right-4 -top-8 font-['Cormorant_Garamond']
+    text-[170px] text-[#EEDFD3] opacity-20
+    transition-all duration-500 group-hover:scale-110 group-hover:text-[#E7C8AF]">
+
+        09
+
+    </span>
+
+    <div class="relative z-10">
+
+        <p class="text-[#C7865A] text-lg">✦</p>
+
+        <h3 class="mt-4 text-3xl leading-tight font-['Cormorant_Garamond']">
+
+            Micro Animation
+            <br>
+            & Transitions
+
+        </h3>
+
+        <div class="w-16 h-[2px] bg-[#D9B394] rounded-full mt-6"></div>
+
+        <p class="mt-6 leading-8 text-gray-600">
+
+            Added subtle animations and smooth
+            transitions to improve interaction,
+            usability, and visual appeal.
+
+        </p>
+
+        <div class="flex justify-between items-center mt-10">
+
+            <span class="text-[#B76E45] text-sm tracking-[0.2em] uppercase">
+
+                Week 09
+
+            </span>
+
+            <details class="mt-6 group">
+
+    <summary class="cursor-pointer list-none inline-flex items-center gap-3 px-5 py-3 rounded-full bg-[#FAF5F1] border border-[#E8DED5] hover:bg-[#F5ECE5] transition">
+
+        <span class="text-[#C7865A] font-medium">
+
+            ✨ What I Learned
+
+        </span>
+
+        <span class="transition-transform duration-300 group-open:rotate-180">
+
+            ▼
+
+        </span>
+
+    </summary>
+
+    <div class="mt-6 ml-2 pl-6 border-l-2 border-[#E8DED5]">
+
+        <ul class="space-y-3 text-gray-600 leading-8">
+
+            <li>✓ Micro Interactions</li>
+
+            <li>✓ Hover Effects</li>
+
+            <li>✓ Smooth Transitions</li>
+
+            <li>✓ Interactive Buttons</li>
+
+            <li>✓ Card Animation</li>
+
+            <li>✓ Image Hover Effects</li>
+
+            <li>✓ User Experience Enhancement</li>
+
+        </ul>
+
+    </div>
+
+</details>
+
+        </div>
+
+    </div>
+
+</div>
+<!-- Week 10 -->
+
+<div class="group relative overflow-hidden rounded-[32px] border border-[#E8DED5]
+p-8 transition-all duration-500 hover:bg-white hover:border-[#C7865A]
+hover:-translate-y-2">
+
+    <span class="absolute -right-4 -top-8 font-['Cormorant_Garamond']
+    text-[170px] text-[#EEDFD3] opacity-20
+    transition-all duration-500 group-hover:scale-110 group-hover:text-[#E7C8AF]">
+
+        10
+
+    </span>
+
+    <div class="relative z-10">
+
+        <p class="text-[#C7865A] text-lg">✦</p>
+
+        <h3 class="mt-4 text-3xl leading-tight font-['Cormorant_Garamond']">
+
+            Landing Page
+            <br>
+            Deployment
+
+        </h3>
+
+        <div class="w-16 h-[2px] bg-[#D9B394] rounded-full mt-6"></div>
+
+        <p class="mt-6 leading-8 text-gray-600">
+
+            Completed the portfolio website,
+            optimized its performance, and prepared
+            it for deployment to a live hosting platform.
+
+        </p>
+
+        <div class="flex justify-between items-center mt-10">
+
+            <details class="mt-6 group">
+
+    <summary class="cursor-pointer list-none inline-flex items-center gap-3 px-5 py-3 rounded-full bg-[#FAF5F1] border border-[#E8DED5] hover:bg-[#F5ECE5] transition">
+
+        <span class="text-[#C7865A] font-medium">
+
+            ✨ What I Learned
+
+        </span>
+
+        <span class="transition-transform duration-300 group-open:rotate-180">
+
+            ▼
+
+        </span>
+
+    </summary>
+
+    <div class="mt-6 ml-2 pl-6 border-l-2 border-[#E8DED5]">
+
+        <ul class="space-y-3 text-gray-600 leading-8">
+
+            <li>✓ Landing Page Development</li>
+
+            <li>✓ Responsive Testing</li>
+
+            <li>✓ Bug Fixing</li>
+
+            <li>✓ Performance Optimization</li>
+
+            <li>✓ Portfolio Finalization</li>
+
+            <li>✓ Deployment Preparation</li>
+
+            <li>✓ Publishing Website</li>
+
+        </ul>
+
+    </div>
+
+</details>
+
+            <span class="px-5 py-2 rounded-full border border-[#E8DED5]
+            text-sm transition-all duration-500
+            group-hover:bg-[#C7865A]
+            group-hover:text-white">
+
+                Deployment →
+
+            </span>
+
+        </div>
+
+    </div>
+
+</div>
+        </div>
+
+    </div>
+
+</section>
+<!-- ================= PROJECTS ================= -->
+
+<section id="projects" class="reveal py-32 bg-white">
+
+    <div class="max-w-7xl mx-auto px-6 lg:px-10">
+
+        <!-- Heading -->
+
+        <div class="text-center mb-24">
+
+            <p class="uppercase tracking-[0.35em] text-sm text-[#C7865A]">
+
+                Featured Projects
+
+            </p>
+
+            <h2 class="font-['Cormorant_Garamond'] text-6xl mt-5">
+
+                Selected Works
+
+            </h2>
+
+            <div class="w-24 h-[2px] bg-[#C7865A] rounded-full mx-auto mt-8 mb-8"></div>
+
+            <p class="max-w-2xl mx-auto text-gray-600 leading-8">
+
+                A collection of projects showcasing my journey in
+                front-end development and data visualization.
+
+            </p>
+
+        </div>
+
+       <!-- ================= PROJECT 01 ================= -->
+
+<div class="grid lg:grid-cols-2 gap-16 items-center">
+
+    <!-- Content -->
+
+    <div>
+
+        <p class="uppercase tracking-[0.3em] text-sm text-[#C7865A]">
+
+            Project 01
+
+        </p>
+
+        <h3 class="font-['Cormorant_Garamond'] text-5xl mt-4">
+
+            Personal Portfolio Website
+
+        </h3>
+
+        <div class="w-20 h-[2px] bg-[#C7865A] my-8 rounded-full"></div>
+
+        <p class="leading-8 text-gray-600">
+
+            A modern personal portfolio website developed using HTML,
+            Tailwind CSS, JavaScript, and Vite. This project showcases
+            my learning journey, featured projects, and contact
+            information through a clean, responsive, and elegant
+            interface inspired by editorial web design.
+
+        </p>
+
+        <!-- Technologies -->
+
+        <div class="flex flex-wrap gap-3 mt-8">
+
+            <span class="px-5 py-2 rounded-full bg-[#FAF5F1]">
+
+                HTML
+
+            </span>
+
+            <span class="px-5 py-2 rounded-full bg-[#FAF5F1]">
+
+                Tailwind CSS
+
+            </span>
+
+            <span class="px-5 py-2 rounded-full bg-[#FAF5F1]">
+
+                JavaScript
+
+            </span>
+
+            <span class="px-5 py-2 rounded-full bg-[#FAF5F1]">
+
+                Vite
+
+            </span>
+
+        </div>
+
+        <!-- Status -->
+
+        <div class="mt-10">
+
+<a
+href="./case-study.html"
+class="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-[#FAF5F1] border border-[#E8DED5] text-[#C7865A] font-medium hover:bg-[#F5ECE5] transition">
+
+📖 View Case Study
+
+</a>
+
+</div>
+
+    </div>
+
+    <!-- Image -->
+
+    <div class="rounded-[28px] shadow-2xl overflow-hidden aspect-[16/9]">
+
+        <img
+            src="images/projects/website.png"
+            alt="Personal Portfolio Website"
+            class="w-full h-full object-cover object-top hover:scale-[1.05] duration-500">
+
+    </div>
+
+</div>
+        <!-- Project 02 -->
+
+<div class="grid lg:grid-cols-2 gap-16 items-center">
+
+    <!-- Image -->
+
+    <div class="order-1 rounded-[28px] shadow-2xl overflow-hidden aspect-[16/9]">
+
+        <img
+            src="images/projects/dashboard.png"
+            alt="Coffee Dashboard"
+            class="w-full h-full object-cover object-center hover:scale-[1.05] duration-500">
+
+    </div>
+
+    <!-- Content -->
+
+    <div class="order-2">
+
+        <p class="uppercase tracking-[0.3em] text-sm text-[#C7865A]">
+
+            Project 02
+
+        </p>
+
+        <h3 class="font-['Cormorant_Garamond'] text-5xl mt-4">
+
+            Coffee Sales Dashboard
+
+        </h3>
+
+        <div class="w-20 h-[2px] bg-[#C7865A] my-8 rounded-full"></div>
+
+        <p class="leading-8 text-gray-600">
+
+            An interactive sales dashboard built in Microsoft Excel
+            to analyze coffee shop performance. The dashboard includes
+            KPI cards, Pivot Tables, Pivot Charts, and Power Query,
+            enabling users to monitor revenue, sales trends,
+            product performance, and business insights efficiently.
+
+        </p>
+
+        <!-- Technologies -->
+
+        <div class="flex flex-wrap gap-3 mt-8">
+
+            <span class="px-5 py-2 rounded-full bg-[#FAF5F1]">
+
+                Microsoft Excel
+
+            </span>
+
+            <span class="px-5 py-2 rounded-full bg-[#FAF5F1]">
+
+                Power Query
+
+            </span>
+
+            <span class="px-5 py-2 rounded-full bg-[#FAF5F1]">
+
+                Pivot Table
+
+            </span>
+
+            <span class="px-5 py-2 rounded-full bg-[#FAF5F1]">
+
+                Dashboard Design
+
+            </span>
+
+        </div>
+
+        <!-- Status -->
+
+        <div class="mt-10">
+            <a
+href="./dashboard-case-study.html"
+class="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-[#FAF5F1] border border-[#E8DED5] text-[#C7865A] font-medium hover:bg-[#F5ECE5] transition">
+
+📊 View Case Study
+
+</a>
+
+            <span
+                class="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-[#FAF5F1] border border-[#E8DED5] text-[#C7865A] font-medium">
+
+                <span>✓</span>
+
+                Completed Project
+
+            </span>
+
+        </div>
+
+    </div>
+
+</div>
+    </div>
+</section>
+<!-- ================= CONTACT ================= -->
+
+<section id="contact" class="reveal py-32 bg-[#FBF8F5]">
+
+    <div class="max-w-7xl mx-auto px-6 lg:px-10">
+
+        <!-- Heading -->
+
+        <div class="text-center mb-20">
+
+            <p class="uppercase tracking-[0.35em] text-sm text-[#C7865A]">
+
+                Contact
+
+            </p>
+
+            <h2 class="font-['Cormorant_Garamond'] text-6xl mt-5">
+
+                Let's Work Together
+
+            </h2>
+
+            <div class="w-24 h-[2px] bg-[#C7865A] rounded-full mx-auto my-8"></div>
+
+            <p class="max-w-2xl mx-auto text-gray-600 leading-8">
+
+                Whether you have a project idea, collaboration opportunity,
+                or simply want to say hello, I'd love to hear from you.
+
+            </p>
+
+        </div>
+
+        <div class="grid lg:grid-cols-2 gap-20 items-center">
+
+            <!-- LEFT -->
+
+            <div>
+
+                <h3 class="font-['Cormorant_Garamond'] text-5xl mb-8">
+
+                    Get In Touch
+
+                </h3>
+
+                <p class="text-gray-600 leading-8 mb-12">
+
+                    Feel free to contact me through the information below,
+                    or send me a message using the contact form.
+
+                </p>
+
+                <div class="space-y-8">
+
+                    <!-- Email -->
+
+                    <a href="mailto:putukesya077@gmail.com"
+                        class="flex items-center gap-5 group">
+
+                        <div class="w-14 h-14 rounded-full bg-white shadow flex items-center justify-center text-xl transition-all duration-300 group-hover:bg-[#C7865A] group-hover:text-white">
+
+                            ✉️
+
+                        </div>
+
+                        <div>
+
+                            <p class="text-sm text-gray-500">
+
+                                Email
+
+                            </p>
+
+                            <p class="font-medium">
+
+                                putukesya077@gmail.com
+
+                            </p>
+
+                        </div>
+
+                    </a>
+
+                    <!-- Instagram -->
+
+                    <a href="https://instagram.com/kesyaaspt"
+                        target="_blank" rel="noopener noreferrer"
+                        class="flex items-center gap-5 group">
+
+                        <div class="w-14 h-14 rounded-full bg-white shadow flex items-center justify-center text-xl transition-all duration-300 group-hover:bg-[#C7865A] group-hover:text-white">
+
+                            📷
+
+                        </div>
+
+                        <div>
+
+                            <p class="text-sm text-gray-500">
+
+                                Instagram
+
+                            </p>
+
+                            <p class="font-medium">
+
+                                @kesyaaspt
+
+                            </p>
+
+                        </div>
+
+                    </a>
+
+                    <!-- WhatsApp -->
+
+                    <a href="https://wa.me/6289602696730"
+                        target="_blank" rel="noopener noreferrer"
+                        class="flex items-center gap-5 group">
+
+                        <div class="w-14 h-14 rounded-full bg-white shadow flex items-center justify-center text-xl transition-all duration-300 group-hover:bg-[#C7865A] group-hover:text-white">
+
+                            💬
+
+                        </div>
+
+                        <div>
+
+                            <p class="text-sm text-gray-500">
+
+                                WhatsApp
+
+                            </p>
+
+                            <p class="font-medium">
+
+                                +62 896-0269-6730
+
+                            </p>
+
+                        </div>
+
+                    </a>
+
+                    <!-- Location -->
+
+                    <div class="flex items-center gap-5">
+
+                        <div class="w-14 h-14 rounded-full bg-white shadow flex items-center justify-center text-xl">
+
+                            📍
+
+                        </div>
+
+                        <div>
+
+                            <p class="text-sm text-gray-500">
+
+                                Location
+
+                            </p>
+
+                            <p class="font-medium">
+
+                                Bali, Indonesia
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- RIGHT -->
+
+            <form
+action="https://formspree.io/f/mjgnpdyw"
+method="POST"
+class="bg-white rounded-[32px] p-10 shadow-xl border border-[#ECE2D8]">
+                <div class="space-y-6">
+
+                    <input
+                        type="text"
+                        placeholder="Your Name"
+                        class="w-full px-6 py-4 rounded-xl border border-[#E8DED5] outline-none focus:border-[#C7865A] transition">
+
+                    <input
+                        type="email"
+                        placeholder="Your Email"
+                        class="w-full px-6 py-4 rounded-xl border border-[#E8DED5] outline-none focus:border-[#C7865A] transition">
+
+                    <textarea
+                        rows="6"
+                        placeholder="Your Message"
+                        class="w-full px-6 py-4 rounded-xl border border-[#E8DED5] outline-none resize-none focus:border-[#C7865A] transition"></textarea>
+
+                    <button
+                        type="submit"
+                        class="w-full py-4 rounded-full bg-[#C7865A] text-white font-medium transition-all duration-300 hover:bg-[#B76E45] hover:scale-[1.02]">
+
+                        Send Message →
+
+                    </button>
+
+                </div>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- ================= FOOTER ================= -->
+
+<footer class="bg-white border-t border-[#ECE2D8]">
+
+    <div class="max-w-7xl mx-auto px-6 lg:px-10 py-16">
+
+        <!-- Logo -->
+
+        <div class="text-center">
+
+            <span class="text-[#C7865A] text-xl">
+
+                ✦
+
+            </span>
+
+            <h2
+                class="font-['Cormorant_Garamond'] text-5xl mt-4">
+
+                KESYA
+
+            </h2>
+
+            <p
+                class="max-w-xl mx-auto mt-6 text-gray-600 leading-8">
+
+                Creating elegant digital experiences with passion,
+                creativity, and continuous learning.
+
+            </p>
+
+        </div>
+
+        <!-- Social -->
+
+        <div
+            class="flex justify-center flex-wrap gap-8 mt-12">
+
+            <a
+                href="https://instagram.com/kesyaaspt"
+                target="_blank" rel="noopener noreferrer"
+                class="text-gray-600 hover:text-[#C7865A] transition">
+
+                Instagram
+
+            </a>
+
+            <a
+                href="mailto:putukesya077@gmail.com"
+                class="text-gray-600 hover:text-[#C7865A] transition">
+
+                Email
+
+            </a>
+
+            <a
+                href="https://wa.me/6289602696730"
+                target="_blank" rel="noopener noreferrer"
+                class="text-gray-600 hover:text-[#C7865A] transition">
+
+                WhatsApp
+
+            </a>
+
+        </div>
+
+        <!-- Divider -->
+
+        <div
+            class="w-full h-px bg-[#ECE2D8] my-12">
+
+        </div>
+
+        <!-- Bottom -->
+
+        <div
+            class="flex flex-col md:flex-row items-center justify-between gap-4">
+
+            <p
+                class="text-gray-500 text-sm">
+
+                © 2026 Kesya. All Rights Reserved.
+
+            </p>
+
+            <p
+                class="text-gray-500 text-sm">
+
+                Built with HTML, Tailwind CSS & JavaScript 🤍
+
+            </p>
+
+        </div>
+
+    </div>
+
+</footer>
+</main>
+    <script src="./js/script.js"></script>
+    <!-- Modal -->
+<div
+id="portfolioModal"
+class="hidden fixed inset-0 z-50 bg-black/50 flex items-center justify-center p-6">
+
+<div class="bg-white rounded-3xl max-w-4xl w-full max-h-[85vh] overflow-y-auto p-10 relative">
+
+<button
+id="closePortfolio"
+class="absolute top-5 right-6 text-3xl hover:text-red-500">
+
+&times;
+
+</button>
+
+<h2 class="text-4xl font-bold mb-6">
+
+Personal Portfolio Website
+
+</h2>
+
+<p class="text-gray-600 leading-8 mb-8">
+
+This website was created as my final CCDT portfolio project.
+It showcases my learning journey, projects, and personal profile
+using HTML, Tailwind CSS, JavaScript, and Vite.
+
+</p>
+
+<h3 class="text-2xl font-semibold mb-3">
+
+Development Process
+
+</h3>
+
+<ol class="list-decimal ml-6 space-y-3 text-gray-600">
+
+<li>Planning the website structure.</li>
+
+<li>Creating the Hero section.</li>
+
+<li>Building the Journey timeline.</li>
+
+<li>Developing the Projects section.</li>
+
+<li>Designing the About section.</li>
+
+<li>Creating the Contact section.</li>
+
+<li>Making the website responsive.</li>
+
+<li>Testing and final improvements.</li>
+
+</ol>
+
+<h3 class="text-2xl font-semibold mt-10 mb-3">
+
+Technologies Used
+
+</h3>
+
+<div class="flex flex-wrap gap-3">
+
+<span class="px-4 py-2 bg-[#FAF5F1] rounded-full">HTML</span>
+
+<span class="px-4 py-2 bg-[#FAF5F1] rounded-full">Tailwind CSS</span>
+
+<span class="px-4 py-2 bg-[#FAF5F1] rounded-full">JavaScript</span>
+
+<span class="px-4 py-2 bg-[#FAF5F1] rounded-full">Vite</span>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+
+</html>

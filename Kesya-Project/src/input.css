@@ -1,0 +1,374 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+/* ===========================
+   THEME
+=========================== */
+
+@theme {
+
+    /* Colors */
+
+    --color-background: #FCF8F4;
+    --color-primary: #C7865A;
+    --color-text: #2F1E18;
+    --color-card: #FFFFFF;
+    --color-soft: #F5E7DA;
+
+    /* Fonts */
+
+    --font-heading: "Cormorant Garamond", serif;
+    --font-body: "Poppins", sans-serif;
+
+}
+
+
+/* ===========================
+   BASE
+=========================== */
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+
+    font-family:var(--font-body);
+
+    background:var(--color-background);
+
+    color:var(--color-text);
+
+    overflow-x:hidden;
+
+}
+
+
+/* ===========================
+   GRID BACKGROUND
+=========================== */
+
+.bg-grid{
+
+    background-image:
+
+    linear-gradient(
+    rgba(199,134,90,.06) 1px,
+    transparent 1px),
+
+    linear-gradient(
+    90deg,
+    rgba(199,134,90,.06) 1px,
+    transparent 1px);
+
+    background-size:52px 52px;
+
+}
+
+
+/* ===========================
+   NOISE
+=========================== */
+
+.bg-noise{
+
+    position:fixed;
+
+    inset:0;
+
+    pointer-events:none;
+
+    z-index:-5;
+
+    opacity:.18;
+
+    background-image:
+    radial-gradient(circle,
+    rgba(255,255,255,.8) 1px,
+    transparent 1px);
+
+    background-size:18px 18px;
+
+}
+
+
+/* ===========================
+   GLOW
+=========================== */
+
+.glow{
+
+    position:absolute;
+
+    border-radius:9999px;
+
+    filter:blur(120px);
+
+    opacity:.55;
+
+}
+
+
+/* ===========================
+   CARD
+=========================== */
+
+.profile-card{
+
+    transition:.45s;
+
+}
+
+.profile-card:hover{
+
+    transform:
+    translateY(-10px);
+
+}
+
+
+/* ===========================
+   BUTTON
+=========================== */
+
+.btn{
+
+    transition:.35s;
+
+}
+
+.btn:hover{
+
+    transform:
+    translateY(-4px);
+
+}
+
+
+/* ===========================
+   IMAGE
+=========================== */
+
+.profile-image{
+
+    transition:.45s;
+
+}
+
+.profile-image:hover{
+
+    transform:scale(1.04);
+
+}
+
+
+/* ===========================
+   NAVBAR
+=========================== */
+
+nav{
+
+    transition:.35s;
+
+}
+
+
+/* ===========================
+   SCROLLBAR
+=========================== */
+
+::-webkit-scrollbar{
+
+    width:10px;
+
+}
+
+::-webkit-scrollbar-track{
+
+    background:#F8F2ED;
+
+}
+
+::-webkit-scrollbar-thumb{
+
+    background:#D8B79D;
+
+    border-radius:999px;
+
+}
+
+::-webkit-scrollbar-thumb:hover{
+
+    background:#C7865A;
+
+}
+
+
+/* ===========================
+   ANIMATION
+=========================== */
+
+@keyframes floating{
+
+    0%{
+
+        transform:
+        translateY(0px);
+
+    }
+
+    50%{
+
+        transform:
+        translateY(-12px);
+
+    }
+
+    100%{
+
+        transform:
+        translateY(0px);
+
+    }
+
+}
+
+
+@keyframes rotateSlow{
+
+    from{
+
+        transform:rotate(0deg);
+
+    }
+
+    to{
+
+        transform:rotate(360deg);
+
+    }
+
+}
+
+
+.float{
+
+    animation:
+    floating 6s ease-in-out infinite;
+
+}
+
+
+.rotate-slow{
+
+    animation:
+    rotateSlow 18s linear infinite;
+
+}
+
+
+/* ===========================
+   SELECTION
+=========================== */
+
+::selection{
+
+    background:#C7865A;
+
+    color:white;
+
+}
+
+
+/* ===========================
+   DARK MODE — kontras & konsistensi warna
+   =========================== */
+
+body{transition:background-color .4s ease,color .4s ease;}
+body.dark{background:#181614;color:#F5F2EE;}
+
+body.dark nav{background:#211D1A !important;border-color:#3B342F;}
+body.dark section{background:#181614 !important;}
+body.dark footer{background:#211D1A !important;}
+
+body.dark .bg-white,
+body.dark .hover\:bg-white:hover{background-color:#211D1A !important;}
+body.dark .card{background:#211D1A !important;border:1px solid #3A332E;}
+
+body.dark .bg-[#FAF5F1],
+body.dark .hover\:bg-[#FAF5F1]:hover{background-color:#2A2522 !important;}
+body.dark .bg-[#F5ECE5],
+body.dark .hover\:bg-[#F5ECE5]:hover{background-color:#332C27 !important;}
+body.dark .bg-[#F7F2ED],
+body.dark .hover\:bg-[#F7F2ED]:hover{background-color:#2A2522 !important;}
+body.dark .bg-[#FBF8F5]{background-color:#1E1B18 !important;}
+body.dark .bg-[#ECE2D8]{background-color:#3A332E !important;}
+
+body.dark .bg-[#F2D7C2],
+body.dark .bg-[#F1D6C0]{opacity:.15;}
+
+body.dark h1,body.dark h2,body.dark h3,body.dark h4{color:#ffffff;}
+body.dark p{color:#D9D3CD;}
+body.dark .text-gray-900{color:#ffffff !important;}
+body.dark .text-gray-800{color:#EDE7E1 !important;}
+body.dark .text-gray-700{color:#D9D3CD !important;}
+body.dark .text-gray-600{color:#C9C0B8 !important;}
+body.dark .text-gray-500{color:#A89E93 !important;}
+body.dark .text-[#2D2D2D]{color:#ffffff !important;}
+
+body.dark .border-[#E8DED5],
+body.dark .border-[#F2E3D8],
+body.dark .border-[#ECE2D8],
+body.dark .border-[#E6C6AF]{border-color:#3A332E !important;}
+body.dark .divide-[#F0E6DC] > :not([hidden]) ~ :not([hidden]){border-color:#3A332E !important;}
+
+body.dark input,
+body.dark textarea{background:#211D1A !important;border-color:#3A332E !important;color:#F5F2EE !important;}
+body.dark input::placeholder,
+body.dark textarea::placeholder{color:#8A8177 !important;}
+
+body.dark .border-[#C7865A]{border-color:#D9946A !important;}
+body.dark .text-[#C7865A]{color:#E2A97C;}
+
+body.dark #portfolioModal .bg-white{background:#211D1A !important;}
+
+body.dark::-webkit-scrollbar-track{background:#211D1A;}
+body.dark::-webkit-scrollbar-thumb{background:#4A3F37;}
+body.dark::-webkit-scrollbar-thumb:hover{background:#C7865A;}
+
+/* ===========================
+   ANIMASI & INTERAKSI
+   =========================== */
+
+body{animation:pageFadeIn .7s ease both;}
+@keyframes pageFadeIn{
+  from{opacity:0;transform:translateY(8px);}
+  to{opacity:1;transform:translateY(0);}
+}
+
+.reveal{
+  opacity:0;
+  transform:translateY(28px);
+  transition:opacity .8s ease, transform .8s ease;
+  will-change:opacity, transform;
+}
+.reveal.in-view{
+  opacity:1;
+  transform:translateY(0);
+}
+.no-js .reveal{opacity:1;transform:none;}
+
+img{transition:transform .5s ease;}
+.profile-image:hover img{transform:scale(1.03);}
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible{
+  outline:2px solid #C7865A;
+  outline-offset:2px;
+}
+
+@media (prefers-reduced-motion: reduce){
+  *{animation-duration:.001ms !important;animation-iteration-count:1 !important;transition-duration:.001ms !important;}
+  .reveal{opacity:1;transform:none;}
+}
