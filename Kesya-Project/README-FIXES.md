@@ -1,6 +1,6 @@
 # Catatan Perbaikan Website (Kesya Portfolio)
 
-Dokumen ini merangkum semua bug yang ditemukan dan perbaikan yang sudah dilakukan.
+
 
 ## 1. Bug HTML/Struktur
 
